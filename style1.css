@@ -1,0 +1,39 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:beige;
+
+}
+h1{
+    font-size: 6em;
+    color: brown;
+    font-family: cursive;
+    background-color:bisque;
+
+}
+
+nav li {
+    font-weight: 700;
+    color:black;
+    display: inline;
+    padding: 15px 30px;
+    border: 1px solid rgb(117, 15, 15);
+    background-color:black;
+    
+} 
+
+img{
+    width:400px;
+    height:600px;;
+    background-color: darkkhaki;
+}
+nav li a{
+    color:gray;
+   text-decoration: none;
+   padding: 26px , 24px;
+}
+

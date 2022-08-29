@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style1.css";>
+</head>
+<body>
+    <center><h1>The Great BT</h1>
+        <br>
+        <nav class="navbar">
+        <ul class="nav_list">
+         <li><a href="home.html">Home</a></li>
+         <li><a href="mens.html">Men</a></li>
+         <li><a href="womens.html">Women</a></li>
+         <li><a href="Ascessories.html">Ascessories</a></li>
+         <li><a href="Icons.html">Icons</a></li>
+        </ul>
+        </nav>
+       <br>
+      </center>
+       <div class="Air Jordan">
+       <h1>Air Jordan</h1>
+       <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/f4e40d1c-1e7a-48cc-acce-fab5b858c93b/air-jordan-1-zoom-cmft-shoes-mDxHSk.png" alt="">
+       <img src="https://static.nike.com/a/images/t_prod_ss/w_960,c_limit,f_auto/a761c588-9f2f-4d72-af32-d6f3deb9feb5/women-s-dunk-low-volt-dn1431-103-release-date.jpg" alt="">
+       <img src="https://static.nike.com/a/images/t_prod_ss/w_960,c_limit,f_auto/44c7d116-ae35-4a39-b1eb-47d6a699c7c3/dunk-low-retro-premium-team-orange-dq8801-800-release-date.jpg" alt="">
+       <img src="https://static.nike.com/a/images/t_prod_ss/w_960,c_limit,f_auto/7b81dc45-116d-42ce-9d49-5a7c5c9bfa16/women-s-dunk-low-medium-olive-dd1503-120-release-date.jpg" alt="">
+       </div>
+    <div class="Air Max">
+       <h1>Air Max</h1>
+       <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/153aca44-bc06-49ad-900b-e4c0c663a8ec/air-max-90-shoes-kRsBnD.png" alt="">
+       <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/3c153d51-6d67-44d4-90a3-ce8a1888f67b/air-max-90-shoes-6zXfRN.png" alt="">
+       <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/18108933-5753-463f-8c30-c84bf7cc54d7/air-max-dawn-shoe-VbDN84.png" alt="">
+       <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/771e14a0-8c88-4747-bc65-c8c86c272ee2/air-max-plus-shoes-Z0D37G.png" alt="">
+    </div>
+    
+       <br />
+      <p>Copyright @ <span id="date"></span></p>
+
+      <script>
+        var date = new Date();
+      let year = date.getFullYear();
+
+      let dateElement = document.getElementById("date");
+      dateElement.innerHTML = `<span style = "color:red;">${year}</span>`;
+
+      </script>
+</body>
+</html>
